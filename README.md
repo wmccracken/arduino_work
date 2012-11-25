@@ -16,7 +16,7 @@ Feel free to contact me with any questions - <will@wgmamm.com>
 
 ## Contributors 
 
-Damien Stuart <dstuart@dstuart.org> - Portions of the derby timer code
+Damien Stuart - <dstuart@dstuart.org> - Portions of the derby timer code
 
 ## License
 
