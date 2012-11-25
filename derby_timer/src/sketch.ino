@@ -17,7 +17,9 @@
  * I have source code available for a Mac client that works with 
  * this sketch. Email me if you are interested - will@wgmamm.com
  *
- * Written by Damien Stuart and Will McCracken <will@wgmamm.com>
+ * Written by:
+ *   Damien Stuart  <dstuart@dstuart.org>
+ *   Will McCracken <will@wgmamm.com>
  * Copyright 2012
 */
 
