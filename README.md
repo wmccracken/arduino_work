@@ -7,9 +7,9 @@ borrow as needed within the guidelines of the MIT license.
 ## Notes
 
 1. Use this code at your own risk!! The sketches should all work but I make no
-   guarantees (see license below)
-2. Theis repo just contains a collection of Arduino sketches. Each directory 
-   contains a project which should compile with ino. 
+   guarantees (see license below).
+2. Each directory contains a project which should compile with ino 
+   <http://inotool.org>.
 3. You may need to modify the ino.ini files to match your hardware. 
 
 ## License
