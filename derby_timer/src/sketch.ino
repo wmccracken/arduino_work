@@ -5,7 +5,22 @@
  * Track 3 separate cars (or what ever event your are timing).
  * Output is sent to the serial port.
  *
+ * 
+ * This sketch supports:
+ *   3 IR LEDs & Sensors (one pair per track)
+ *   Start switch
+ *   Servo to open the starting gate
+ *   Reset switch to zero the timing registers
+ *   Track times are output to the serial port.
+ *   Reset and start commands can be triggered by serial port.
+ *
+ * I have source code available for a Mac client that works with 
+ * this sketch. Email me if you are interested - will@wgmamm.com
+ *
+ * Written by Damien Stuart and Will McCracken <will@wgmamm.com>
+ * Copyright 2012
 */
+
 #include <stdio.h>
 #include <Servo.h>
 
