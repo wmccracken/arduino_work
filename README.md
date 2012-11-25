@@ -1,4 +1,4 @@
 arduino_work
 ============
 
-arduino sketches
+this repo just has some random arduino sketches that I've used for various projects.
