@@ -130,19 +130,19 @@ void loop()
     
     // Check the car pins.
     //
-    if(! cs[0].finished && digitalRead(carPin1) == LOW)
+    if(! cs[0].finished && digitalRead(carPin1) == HIGH)
     {
       cs[0].time = millis();
       cs[0].finished = true;
     }
 
-    if(! cs[1].finished && digitalRead(carPin2) == LOW)
+    if(! cs[1].finished && digitalRead(carPin2) == HIGH)
     {
       cs[1].time = millis();
       cs[1].finished = true;
     }
 
-    if(! cs[2].finished && digitalRead(carPin3) == LOW)
+    if(! cs[2].finished && digitalRead(carPin3) == HIGH)
     {
       cs[2].time = millis();
       cs[2].finished = true;
