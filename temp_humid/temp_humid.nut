@@ -1,4 +1,4 @@
-
+// First Floor Temp & Humidity Sensor
 local rxLEDToggle = 1;  // These variables keep track of rx/tx LED toggling status
 local txLEDToggle = 1;
 
@@ -94,8 +94,18 @@ function send_values(){
     temperatureOutput.set(temp);
     humidityOutput.set(humidity);
 //    server.show("Temp: " + temp + " RH: " + humidity); 
-    server.show("Sent values")
+    server.show(blob_to_s(temp) + "F " + blob_to_s(humidity) + "%RH");
 }
+
+function blob_to_s(b){
+    local out = "";
+    b.seek(0);
+    while(!b.eos()) {
+        out += b.readn('b').tochar();  //convert the blob to string (painful, must be a better way)
+    }
+    return out;
+}
+
 
 imp.configure("TemperatureHumidity1", [], [temperatureOutput, humidityOutput]);
 initUart(); // Initialize the UART, called just once
