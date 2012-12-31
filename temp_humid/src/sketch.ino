@@ -33,7 +33,7 @@ void loop(void)
   
   // The sensor can only be read from every 1-2s, and requires a minimum
   // 2s warm-up after power-on.
-  delay(30000);
+  delay(300000);
   
   Serial.print("Requesting data...");
   errorCode = myDHT22.readData();

@@ -1,0 +1,5 @@
+source :rubygems
+
+gem 'serialport'
+gem 'cosm-rb'
+gem 'rrd-ffi'

@@ -93,7 +93,6 @@ function pollUart()
 function send_values(){
     temperatureOutput.set(temp);
     humidityOutput.set(humidity);
-//    server.show("Temp: " + temp + " RH: " + humidity); 
     server.show(blob_to_s(temp) + "F " + blob_to_s(humidity) + "%RH");
 }
 
